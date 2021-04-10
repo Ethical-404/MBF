@@ -150,7 +150,7 @@ def gen():
                 find_token = re.search('(EAAA\w+)', data.text)
                 hasil    = '\n* Fail : maybe your cookie invalid !!' if (find_token is None) else '\n* Your fb access token : ' + find_token.group(1)
         except requests.exceptions.ConnectionError:
-                print "   [!] No Connection"
+                print "   [!] Tool Going On "
         cookie = open("login.txt", 'w')
         cookie.write(find_token.group(1))
         cookie.close()

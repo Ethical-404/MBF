@@ -185,7 +185,7 @@ def menu():
 	banner()
 	print("\n   [!] Hello : "+nama)
 	print("   [!] UID   : "+id)
-	print("\n─────────────────────────────────────────────────────────────")
+	print("\n------------------------------------------------------------------------")
 	print("\n   [ Choose Options ]")
 	print("\n   [1] Dump ID From Public/Friend")
 	print("   [2] Dump ID Followers")
